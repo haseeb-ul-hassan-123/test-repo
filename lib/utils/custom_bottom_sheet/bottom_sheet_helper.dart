@@ -3,7 +3,7 @@ import 'package:my_teracce/exports/app_exports.dart';
 
 class BottomSheetUtils {
 
-  /// make static bottom sheet function just for once to use and  avoid to use again and again of flutter framwork
+  /// make static bottom sheet function just for use once and avoid of duplication
   static Future<void> showSheet(BuildContext context,
       {required Widget child, EdgeInsetsGeometry? padding}) async {
     await showModalBottomSheet(
